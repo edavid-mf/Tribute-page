@@ -1,0 +1,93 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    margin: 0; padding: 0;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+body {
+    background-color: #eeeeee;
+    font-family: sans-serif;
+    color: #333;
+}
+#title {
+    text-align: center;
+    font-size: 3em;
+    margin: 25px 0 30px 0;
+}
+div.header p {
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+figure {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+div.fig-div {
+    padding: 20px;
+}
+#img-caption {
+    padding-top: 15px;
+}
+section h3 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 25px 0 40px 0;
+}
+section.seccion {
+    margin: 20px 0;
+    text-align: center;
+}
+div.list-container {
+    width: 50%;
+}
+ul {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ul li {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+}
+li:first-child,
+li:nth-child(5) {
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+blockquote {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: justify;
+    font-style: italic;
+    font-size: 1.5em;
+}
+.cite {
+    display: inline-block;
+    margin: 15px 0 0 40px;
+    font-size: .8em;
+}
+p.more-info {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+a {
+    text-decoration: none;
+}
